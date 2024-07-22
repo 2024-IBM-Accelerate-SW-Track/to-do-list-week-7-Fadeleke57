@@ -26,6 +26,7 @@ class SearchTodo extends Component {
       headers: {
         "Content-Type": "application/json" 
       },
+      withCredentials: true,
       params: {
         taskname: this.state.content
       }
