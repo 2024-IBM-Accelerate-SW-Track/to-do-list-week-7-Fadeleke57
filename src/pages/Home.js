@@ -50,6 +50,7 @@ class Home extends Component {
       method: "POST",
       url: "http://localhost:8080/items",
       data: {jsonObject},
+      withCredentials: true,
       headers: {
         "Content-Type": "application/json"
       }
